@@ -111,7 +111,7 @@ ul{
 
 .top-banner{
     /* background-color: #4fb3d4; */
-    background-image: url('assets/images/topbanner.avif');
+    background-image: url('topbanner.avif');
     background-size: 200px;
 }
 
@@ -183,7 +183,7 @@ ul{
 
 .features-section {
     padding: 80px var(--padding-inline-section) 0;
-    /* background-image: url(assets/images/blur.jpg); */
+    /* background-image: url(blur.jpg); */
     /* background-repeat: no-repeat; */
     /* background-position: center; */
 }
@@ -247,7 +247,7 @@ ul{
 }
 .examples-card {
     background: black;
-    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url(assets/images/card1.jpg);
+    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url(card1.jpg);
     background-size: cover;
     position: relative;
     width: 23%;
@@ -258,11 +258,11 @@ ul{
     box-shadow: 0 0 10px #443c3c;
 }
 .examples-card:nth-child(3){
-    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url(assets/images/card3.jpg);
+    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url(card3.jpg);
     background-size: cover;
 }
 .examples-card:nth-child(3){
-    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url(assets/images/card4.jpg);
+    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url(card4.jpg);
     background-size: cover;
 }
 .card-text {
