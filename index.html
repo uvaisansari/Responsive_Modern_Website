@@ -8,6 +8,16 @@
     <link rel="stylesheet" href="media-queries.css">
 </head>
 <body>
+    <!-- Preloader Animation -->
+
+    <div id="bubb" class="bubbles">
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+    </div>
+
     <!-- top-banner -->
     <div class="top-banner">
         <div class="small-bold-text banner-text">
@@ -264,6 +274,12 @@
         const navLinks = document.getElementById('nav-link');
         toggleButton.addEventListener('click', ()=>{
             navLinks.classList.toggle('active');
+        })
+    </script>
+    <script>
+        let loader = document.getElementById("bubb");
+        window.addEventListener("load", function(){
+            loader.style.display = "none";
         })
     </script>
 </body>
