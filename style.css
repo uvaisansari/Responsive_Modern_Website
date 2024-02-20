@@ -8,6 +8,44 @@
     margin: 0;
     padding: 0;
 }
+
+/* Animation Css */
+
+.bubbles{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: linear-gradient(to top left, #68d1d1, #abffff 40%);
+    position: fixed;
+    z-index: 10;
+}
+.bubble{
+    height: 10px;
+    width: 10px;
+    background-color: #535151;
+    border-radius: 50%;
+    animation-name: bubble;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0.2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bubble {
+    from{
+        transform: scale(1);
+        background-color: #888b8f;
+    }
+    to{
+        transform: scale(1.9);
+    }
+}
+
+/*          End animation css here  */
+
 :root{
     --primary-text-color: #183b56;
     --secondary-text-color: #577592;
